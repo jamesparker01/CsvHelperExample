@@ -24,7 +24,6 @@ public class CsvRepository
             return csv.GetRecords<Foo>().Where(x => x.Id != string.Empty && x.Name != string.Empty).ToArray();
         }
     }
-
 }
 
 public record Foo

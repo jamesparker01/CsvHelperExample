@@ -8,10 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="testdata.csv" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Include="testdata.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
