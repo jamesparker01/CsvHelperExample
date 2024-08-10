@@ -18,7 +18,7 @@ public class CsvRepository
     public Foo[] ReadCsv()
     {
         using (var reader = new StreamReader("testdata.csv"))
-        using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
+        using (var csv = new CsvReader(reader, CultureInfo.GetCultureInfo("fr")))
         {
             csv.Context.RegisterClassMap<FooMap>();
             return csv.GetRecords<Foo>().Where(x => x.Id != string.Empty && x.Name != string.Empty).ToArray();

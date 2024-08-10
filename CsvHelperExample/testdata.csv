@@ -1,4 +1,4 @@
-ColumnA,ColumnB,ColumnC,ColumnD,ColumnB
-,dataA3,dataA4,dataA5,dataA6
-dataA3,dataA4,dataA5,,dataA7
-dataA4,dataA5,dataA6,dataA7,dataA8
+ColumnA;ColumnB;ColumnC;ColumnD;ColumnB
+;dataA3;dataA4;dataA5;dataA6
+dataA3;dataA4;dataA5;;dataA7
+dataA4;dataA5;dataA6;dataA7;dataA8
